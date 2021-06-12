@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Advent+Pro:400,200);
+*{margin: 0;padding: 0;}
+
+body{
+  background-image: url("/background.jpg");
+  font-family:Montserrat,Arial,sans-serif;
+  text-align: center;
+}
+h2{
+  font-size:14px;
+}
+.search{
+  text-align: center;
+  margin: 2.5rem;
+}
+.search-bar{
+  font-size: 1.2rem;
+}
+.font{
+  padding: 0.2%;
+}
+.widget{
+  box-shadow:0 40px 10px 5px rgba(0,0,0,0.4);
+  margin:40px auto 50px auto;
+  height: 350px;
+  position: relative;
+  width: 500px;
+  opacity: 90%;
+  border-radius: 30px;
+}
+
+.upper{
+  border-radius:5px 5px 0 0;
+  background:#125d98;
+  height:200px;
+  padding:20px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  text-align: center;
+}
+
+.date{
+  font-size:30px;
+}
+.year{
+  font-size:30px;
+  color:#c1c1c1;
+  margin: 5%;
+}
+.place{
+  color:#222;
+  margin: 1% 0;
+  font-size:15px;
+}
+.title{
+  font-size: 1rem;
+}
+.lower{
+  background:#125d98;
+  border-radius:0 0 5px 5px;
+  font-family:'Advent Pro';
+  font-weight:200;
+  height:150px;
+  width:100%;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.update{
+  font-size: 1rem;
+}
+
+.infos{
+  list-style:none;
+}
+.info{
+  color:#fff;
+  float:left;
+  height:100%;
+  padding-top:10px;
+  text-align:center;
+  width:33%;
+}
+.info span{
+  display: inline-block;
+  font-size:25px;
+  margin-top:20px;
+}
+.weather p {
+  font-size:20px;padding:10px 0;
+}
+.anim{animation:fade .8s linear;}
+
+@keyframes fade{
+  0%{opacity:0;}
+  100%{opacity:1;}
+}
+.footer{
+  bottom: 0;
+   position: fixed;
+   background: #000000d0;
+   color: white;
+   width: 100%;
+   text-align: center;
+   padding: 5px;
+   
+}
